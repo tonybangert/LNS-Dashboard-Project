@@ -1,4 +1,4 @@
-import { getBadgeClass, getFlags, formatCurrency, formatDate } from './data';
+import { getBadgeClass, getFlags, formatCurrency, formatDate } from '../data';
 
 export default function DetailPanel({ record, onClose }) {
   const runs = [
